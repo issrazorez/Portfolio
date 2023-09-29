@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(16, 10, 29);
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 95px;
+    background-color: #000000;
+    margin-top: 100px;
+    column-gap: 100px;
+}
+
+.footer i{
+    font-size: 25px;
+    color: rgb(54, 72, 98);
+    transition: 0.2s all linear;
+}
+
+.footer i:hover{
+    cursor: pointer;
+    color: #6c6ca8;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f100; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #6c6ca8;
+}
+
+#navBar{
+    height: 80px;
+    position: fixed;
+    width: 100vw;
+    background-color: rgba(19, 10, 37, 0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    transition: 0.2s all linear;
+}
+
+#navBar:hover{
+    background-color: rgba(19, 10, 37, 0.6);
+}
+
+#links{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#links span{
+    color: white;
+    transition: 0.2s all linear;
+    border-bottom: 1px solid transparent;
+    font-size: 17px;
+    font-weight: 200;
+}
+
+#links span:hover{
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+#nameAndProfile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+#profilePicture{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 500px;
+    display: block;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+#experienceDiv{
+    margin-top: 50px;
+}
+
+#aboutMe{
+    width: 100%;
+    height: 50%;
+    float: left;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 200;
+    color: rgb(54, 72, 98);
+}
+
+#aboutMeText{
+    margin-top: 220px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#banner{
+    width: 100%;
+    height: 50%;
+    float: left;
+    background: url('Assets/Banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#name{
+    color: #6c6ca8;
+}
+
+#skillsDiv, #experienceDiv{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#skillsDiv{
+    margin-top: 180px;
+}
+
+#skillsHeading, #experienceHeading{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 200;
+    color: rgb(54, 72, 98);
+}
+
+.skills{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 200;
+    color: #6c6ca8;
+    transition: 0.2s all linear;
+}
+
+.skills:hover{
+    color: rgb(74, 101, 140);
+    cursor: default;
+    letter-spacing: 1px;
+}
+
+.hr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hrActual{
+    height: 2px;
+    width: 60%;
+    background-color: #6c6ca81e;
+    margin-top: 50px;
+}
+
+#buttonDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.button{
+    font-size: large;
+    font-weight: 200;
+    height: 40px;
+    width: 200px;
+    border: 1px solid rgb(54, 72, 98);
+    border-radius: 50px;
+    background-color: transparent;
+    color: rgb(54, 72, 98);
+    transition: 0.2s all linear;
+    margin-bottom: 40px;
+}
+
+.button:hover{
+    border: 1px solid  #6c6ca8;
+    color:  #6c6ca8;
+    cursor: pointer;
+}
+
+#active{
+    border-bottom: 1px solid white;
+}
+
+@media only screen and (max-width: 768px){
+    #profilePicture{
+        height: 250px;
+        width: 250px;
+        top: 45%;
+    }
+
+    #banner{
+        height: 35%;
+    }
+
+    #aboutMeText{
+        margin-top: 160px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #experienceDiv, #skillsDiv{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #skillsDiv{
+        padding-top: 50px;
+    }
+}

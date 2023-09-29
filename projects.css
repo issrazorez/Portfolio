@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(16, 10, 29);
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 95px;
+    background-color: #000000;
+    margin-top: 100px;
+    column-gap: 100px;
+}
+
+.footer i{
+    font-size: 25px;
+    color: rgb(54, 72, 98);
+    transition: 0.2s all linear;
+}
+
+.footer i:hover{
+    cursor: pointer;
+    color: #6c6ca8;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f100; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #6c6ca8;
+}
+
+.blogLinkSpan{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#navBar{
+    height: 80px;
+    position: fixed;
+    width: 100vw;
+    background-color: rgba(19, 10, 37, 0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    transition: 0.2s all linear;
+}
+
+#navBar:hover{
+    background-color: rgba(19, 10, 37, 0.6);
+}
+
+#links{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+i{
+    margin-left: 15px;
+}
+
+.gitLink{
+    margin: 0;
+    color: rgb(54, 72, 98);
+    width: min-content;
+    transition: 0.2s all linear;
+    width: fit-content;
+}
+
+.gitLink:hover{
+    cursor: pointer;
+    color: #6c6ca8;
+}
+
+#links span{
+    color: white;
+    transition: 0.2s all linear;
+    border-bottom: 1px solid transparent;
+    font-size: 17px;
+    font-weight: 200;
+}
+
+#links span:hover{
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+.tagLineDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.tagLineDivLast{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+#youtube{
+    width: 560px;
+    height: 315px;
+}
+
+.tagline{
+    color: rgb(54, 72, 98);
+    font-size: large;
+    font-weight: 200;
+    font-size: 25px;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 100%;
+}
+
+iframe{
+    border: none;
+}
+
+.taglineLast{
+    color: rgb(54, 72, 98);
+    font-size: large;
+    font-weight: 200;
+    font-size: 25px;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slideShowCount{
+    color: #6c6ca8;
+    font-weight: 200;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+#sectionOne{
+    margin-top: 75px;
+}
+
+#sectionTwo{
+    margin-top: 50px;
+}
+
+#sectionThree{
+    margin-top: 50px;
+}
+
+#sectionFour{
+    margin-top: 50px;
+}
+
+#sectionFive{
+    margin-top: 70px;
+}
+
+#sectionSix{
+    margin-top: 100px;
+}
+
+#sectionSeven{
+    margin-top: 100px;
+}
+
+#sectionEight{
+    margin-top: 70px;
+}
+
+#sectionNine{
+    margin-top: 100px;
+}
+
+#sectionTen{
+    margin-top: 100px;
+}
+
+#sectionEleven{
+    margin-top: 100px;
+}
+
+#sectionTwelve{
+    margin-top: 100px;
+}
+
+#sectionThirteen{
+    margin-top: 100px;
+}
+
+#sectionFourteen{
+    margin-top: 100px;
+}
+
+#sectionFifteen{
+    margin-top: 100px;
+}
+
+#sectionSixteen{
+    margin-top: 100px;
+}
+
+.youtubeVideo{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.artWork{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 100px;
+}
+
+.artWorkImage{
+    width: 500px;
+    border-radius: 5px;
+}
+
+.singleArtWork{
+    color: white;
+    font-weight: 200;
+}
+
+.paintingTitle{
+    margin: 0;
+    font-size: 30px;
+    color: #6c6ca8;
+}
+
+.paintingStyle{
+    margin: 0;
+    font-size: 20px;
+    color: rgb(54, 72, 98);
+}
+
+.columnLeft{
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.columnRight{
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#sectionTwo{
+    margin-top: 100px;
+}
+
+#sectionFour{
+    margin-top: 100px;
+}
+
+.slideShowDiv{
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+}
+
+.slideShow{
+    width: 80%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slideShowImage{
+    height: 60vh;
+    max-width: 80vw;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.blogLink{
+    color: #6c6ca8;
+    transition: 0.2s all linear;
+    border-bottom: 1px solid transparent;
+}
+
+.blogLink:hover{
+    color: #6c6ca8;
+    border-bottom: 1px solid #6c6ca8;
+}
+
+.slideShowButtons{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.slideShowButtonLeft, .slideShowButtonRight{
+    font-size: xx-large;
+    background: none;
+    border: none;
+    margin: 0;
+    color: rgb(54, 72, 98);
+    transition: 0.2s linear all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slideShowButtonLeft:hover, .slideShowButtonRight:hover{
+    cursor: pointer;
+    color: #6c6ca8;
+}
+
+.slideShowHeading{
+    color: rgb(54, 72, 98);
+    font-size: large;
+    font-weight: 200;
+    font-size: 25px;
+    text-align: center;
+}
+
+.slideShowHeadingSpan{
+    color: #6c6ca8;
+}
+
+#active{
+    border-bottom: 1px solid white;
+}
+
+@media only screen and (max-width: 768px){
+    .artWorkImage{
+        width: 300px;
+    }
+
+    #youtube{
+        width: 300px;
+        height: 200px;
+    }
+
+    .slideShowImage{
+        height: 40vh;
+    }
+
+    .slideShowButtons{
+        width: 80%;
+    }
+}
+
+.nameAndButton{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.switchButton{
+    color: rgb(54, 72, 98);
+    transition: 0.2s linear all;
+}
+
+.switchButton:hover{
+    cursor: pointer;
+    color: #6c6ca8;
+}
+
