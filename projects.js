@@ -21,11 +21,11 @@ var slidesListThree = ['33', '94', '125', '10', '14', '15', '18', '19', '21', '3
 '174', '175', '177', '178', '180', '181', '182', '183', '184', '185', '186', 
 '187', '188', '189', '190', '191', '192', '193', '195', '196', '176', '179', '194', '162', '9'];
 
-var slidesListFour = ['1', '2', '3', '4', '5', '6'];
+var slidesListFour = ['1', '2', '3', '4', '5'];
 
 var slidesListFive = ['1', '2', '3', '4', '5', '6', '7', '8'];
 
-var slidesListSix = ['1', '2', '3', '4']
+var slidesListSix = ['4', '2', '3', '1']
 
 var slidesListSeven = ['1', '2', '3', '4'];
 
@@ -141,14 +141,14 @@ function slideChangeThree(side){
 function slideChangeFour(side){
     if(side === 'left'){
         if(currentSlideIndexFour === 0){
-            currentSlideIndexFour = 5;
+            currentSlideIndexFour = 4;
         }
         else{
             currentSlideIndexFour--;
         }
     }
     else{
-        if(currentSlideIndexFour === 5){
+        if(currentSlideIndexFour === 4){
             currentSlideIndexFour = 0;
         }
         else{
