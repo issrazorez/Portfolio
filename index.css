@@ -164,7 +164,6 @@ a{
 .skills:hover{
     color: rgb(74, 101, 140);
     cursor: default;
-    letter-spacing: 1px;
 }
 
 .hr{
@@ -235,4 +234,8 @@ a{
     #skillsDiv{
         padding-top: 50px;
     }
+}
+
+.buttonLink{
+    height: 40px;
 }
